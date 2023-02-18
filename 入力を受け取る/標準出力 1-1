@@ -1,3 +1,6 @@
+/*標準出力を用いて、Hello Algo-method!と表示するプログラムを作成してください。*/
+
+
 #include <bits/stdc++.h>
 
 using namespace std;
