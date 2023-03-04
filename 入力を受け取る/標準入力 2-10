@@ -1,0 +1,13 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    string s;
+    int n,m;
+    cin>>s>>n>>m;
+
+    n--;m--;
+
+    swap(s.at(n),s.at(m));
+    cout<<s<<endl;
+}
