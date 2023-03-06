@@ -1,0 +1,17 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int n,L=0,R=0;cin>>n;
+    vector<string> s(n);
+    for(int i =0;i<n;i++){
+        cin>> s[i];
+
+        if (s[i]=="left"){L++;}
+        else if(s[i]=="right"){R++;}
+    }
+    if(L==R){cout<<"same"<<endl;}
+    else if(L>R){cout<<"left"<<endl;}
+    else if(L<R){cout<<"right"<<endl;}
+
+}
